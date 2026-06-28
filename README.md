@@ -1,18 +1,19 @@
 # 📒 Agenda de Contatos em Python
 
-Agenda de contatos com menu interativo no terminal, desenvolvida em Python para praticar funções, dicionários e estruturas de repetição.
+Agenda de contatos com menu interativo no terminal, desenvolvida em Python para praticar funções, dicionários, manipulação de arquivos e tratamento de exceções.
 
 ## 💡 Funcionalidades
 
-- Adicionar contato (nome + telefone)
-- Remover contato
-- Buscar contato pelo nome
-- Exibir todos os contatos
-- Menu em loop até o usuário sair
+* Adicionar contato (nome + telefone)
+* Remover contato
+* Buscar contato pelo nome
+* Exibir todos os contatos
+* Persistência de dados com JSON (contatos salvos entre sessões)
+* Menu em loop até o usuário sair
 
 ## 🚀 Como executar
 
-**Pré-requisitos:** Python 3 instalado na máquina.
+Pré-requisitos: Python 3 instalado na máquina.
 
 ```bash
 # Clone o repositório
@@ -27,32 +28,40 @@ python agenda.py
 
 ## 🖥️ Exemplo de uso
 
-```
 ====== AGENDA =======
-1 - Adicionar contato
-2 - Remover contato
-3 - Buscar contato
-4 - Exibir todos
-5 - Sair
 
+1 - Adicionar contato
+
+2 - Remover contato
+
+3 - Buscar contato
+
+4 - Exibir todos
+
+5 - Sair
 Digite o nome do contato que deseja adicionar: Maria
+
 Digite o numero do telefone: 31999990000
 
+O Contato Maria, Foi Adicionado Com Sucesso !!
 ====== AGENDA =======
+
 4 - Exibir todos
+
 Maria : 31999990000
-```
 
 ## 📚 Conceitos praticados
 
-- Funções
-- Dicionários
-- Estruturas condicionais e loops
-- Organização de código com menu interativo
+* Funções
+* Dicionários
+* Estruturas condicionais e loops
+* Manipulação de arquivos JSON
+* Tratamento de exceções (try/except)
+* Organização de código com menu interativo
 
 ## 🛠️ Tecnologias
 
-- Python 3
+* Python 3
 
 ## 👨‍💻 Autor
 
